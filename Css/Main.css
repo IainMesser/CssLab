@@ -134,45 +134,36 @@ div.iain{
 
 
 /*Scrolling bar of text*/
-div.scroll {
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-div.scroll {
-    display: inline-block;
-    animation: scroll-left 30s linear infinite;
-    font-size: 24px;
-    color: #fff;
-    
-}
-div.scroll {
+.scrolling-container {
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    background-color: #708090;
+    background-color: #f0f0f0;
     padding: 20px 0;
     box-sizing: border-box;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    margin: 20px 0;
-}
-div.scroll {
-display: inline-block;
-            font-size: 30px;
-            font-weight: bold;
-            color: #333;
-            padding-right: 100%; 
+    border: 2px solid #333; /* Border around the box */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin: 0px 10; /* Optional: margin for spacing */
 }
 
-@keyframes scroll-left {
+.scrolling-text-wrapper {
+    display: inline-block;
+    animation: scroll-right 20s linear infinite;
+}
+
+.scrolling-text {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+@keyframes scroll-right {
     0% {
-        transform: translateX(100%);
+        transform: translateX(-100%); /* Start at the left */
     }
-    100% {
-        transform: translateX(-100%);
+    1000% {
+        transform: translateX(0); /* End off-screen to the left */
     }
 }
 
@@ -180,7 +171,11 @@ display: inline-block;
 
 
 
-
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 @media (Max-width: 800px) {
     body{
