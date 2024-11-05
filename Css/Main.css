@@ -14,6 +14,10 @@ header {
     padding: 20px;
     background-color: #333;
     color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
@@ -80,7 +84,7 @@ figure {
     overflow: hidden;
 }
 figure {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -93,3 +97,14 @@ figure {
     padding: 0;
     box-sizing: border-box;
 }   
+
+
+
+
+/*Div section for about*/
+.main {
+    display: flex;
+    margin: 500px auto 20px auto;
+    max-width: 1200px;
+}
+
