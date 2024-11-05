@@ -48,7 +48,7 @@ nav ul li a:hover {
 /*Graphic design agency text*/
 main h1 {
     position: absolute;
-    top: 400px;
+    top: 300px;
     color: #fff;
     text-align: center;
     font-weight: 1;
@@ -57,17 +57,25 @@ main h1 {
 /* Design dreams come true text*/
 section h2{
     position: absolute;
-    top: 500px;
+    top: 400px;
     text-align: center;
     color: #fff;
     font-size: 100px;
 }
 section h3{
     position: absolute;
-    top: 600px;
+    top: 500px;
     text-align: center;
     color: #fff;
     font-size: 100px;
+}
+section h4{
+    position: absolute;
+    top: 1100px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    opacity: 50%;
 }
 
 
@@ -85,8 +93,6 @@ figure {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-}
-figure {
     position: relative;
     top: 0;
     left: 0;
