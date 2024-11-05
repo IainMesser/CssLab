@@ -1,5 +1,5 @@
 body {
-    background-color: #555;
+    background-color: #333;
 }
 
 
@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #708090;
     color: #fff;
     position: fixed;
     top: 0;
@@ -37,7 +37,7 @@ nav ul li a {
     transition: background 0.3s;
 }
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #333;
     border-radius: 5px;
 }
 
@@ -103,12 +103,87 @@ figure {
 
 
 
-/*Div section for about*/
-.main {
-    display: flex;
-    margin: 500px auto 20px auto;
-    max-width: 1200px;
+/*About me on main page*/
+section h4{
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    left: 0%;
+    padding-left: 325px;
+    padding-top: 130px;
 }
-.iain{
-    top: 0;
+section p{
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    left: 0%;
+    max-width: 800px;
+    padding-left: 50px;
+    padding-top: 200px;
+    text-align: center;
 }
+div.iain{
+   float: right;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+}
+
+
+
+
+
+/*Scrolling bar of text*/
+div.scroll {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+div.scroll {
+    display: inline-block;
+    animation: scroll-left 30s linear infinite;
+    font-size: 24px;
+    color: #fff;
+    
+}
+div.scroll {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #708090;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+div.scroll {
+display: inline-block;
+            font-size: 30px;
+            font-weight: bold;
+            color: #333;
+            padding-right: 100%; 
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+@media (Max-width: 800px) {
+    body{
+        background-color: aqua;
+    }  
+}   
