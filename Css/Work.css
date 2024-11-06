@@ -89,7 +89,7 @@ section h3 {
 }
 .box {
     position: absolute; 
-    top: 14%; 
+    top: 13%; 
     right: 5%;
     width: 700px;            
     height: 715px;           
@@ -101,7 +101,7 @@ section h3 {
 }
 section p{
     position: absolute; 
-    top: 30%; 
+    top: 48%; 
     left: 74%; 
     transform: translate(-50%, -50%); 
     color: #fff; 
@@ -109,27 +109,28 @@ section p{
     text-align: center; 
     font-weight: 1;
     padding-top: 80px;
+    line-height: 40px;
 }
 .social ul{
     position: absolute; 
-    top: 60%; 
-    left: 50%; 
+    top: 80%; 
+    left: 75%; 
     transform: translate(-50%, -50%); 
-    color: #fff; 
+    color: #708090; 
     font-size: 20px; 
     text-align: center; 
     font-weight: 1;
     list-style-type: none;
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 .social li a{
     padding: 10px 15px;
     transition: background 0.3s;
-    background-color: #708090;
+    background-color: #ffffff;
     border-radius: 10px;
     text-decoration: none;
-    color: #fff;
+    color: #708090;
 }
 .social li a:hover{
     background-color: #333;
