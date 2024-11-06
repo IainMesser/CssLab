@@ -170,15 +170,30 @@ div.iain{
 
 
 /*My hobbies*/
+section h5{
+    position:absolute;
+    font-size: 50px;
+    color: #fff;
+    left: 0%;
+    padding-left: 1165px;
+    top: 1600px;
+    z-index: -1;
+}
 .My-hobbies p{
     font-size: 25px;
     color: #fff;
-    position: relative;
-    max-width: 1650px;
-    padding-left: 950px;
-    padding-top: 0px;
-    padding-bottom: 60px;
+    position: absolute;
+    left: 0%;
+    max-width: 800px;
+    padding-left: 50px;
+    padding-top: 200px;
     text-align: center;
+}
+div.iain{
+   float: right;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
 }
 
 
@@ -190,7 +205,7 @@ footer{
     right: 0;
     background-color: #708090;
     color: #fff;
-    text-align: center;
+    text-align:center;
     padding-top: 25px;
     padding-bottom: 25px;
 }
