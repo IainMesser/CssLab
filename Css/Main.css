@@ -83,7 +83,6 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     overflow: hidden;
     position: relative;
     top: 0;
