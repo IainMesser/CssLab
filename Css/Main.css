@@ -105,14 +105,15 @@ figure {
 
 /*About me on main page*/
 section h4{
-    position: absolute;
+    position:absolute;
     font-size: 50px;
     color: #fff;
     left: 0%;
     padding-left: 325px;
     padding-top: 130px;
+    z-index: -1;
 }
-section p{
+.main p{
     font-size: 25px;
     color: #fff;
     position: absolute;
@@ -137,25 +138,21 @@ div.iain{
 .scrolling-container {
     width: 100%;
     overflow: hidden;
-    white-space: nowrap;
-    background-color: #f0f0f0;
-    padding: 20px 0;
-    box-sizing: border-box;
-    border: 2px solid #333; /* Border around the box */
-    border-radius: 10px; /* Optional: rounded corners */
-    margin: 0px 10; /* Optional: margin for spacing */
+    white-space: nowrap;    
+    padding-bottom: 50px;
+    word-spacing: 20px;
 }
 
 .scrolling-text-wrapper {
     display: inline-block;
-    animation: scroll-right 20s linear infinite;
+    animation: scroll-right 50s linear infinite;
 }
 
 .scrolling-text {
     display: inline-block;
     font-size: 30px;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
 }
 
 @keyframes scroll-right {
@@ -171,10 +168,31 @@ div.iain{
 
 
 
-footer{
+
+/*My hobbies*/
+.My-hobbies p{
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    max-width: 1650px;
+    padding-left: 950px;
+    padding-top: 0px;
+    padding-bottom: 60px;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+}
+
+
+
+/*Footer*/
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #708090;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 @media (Max-width: 800px) {
