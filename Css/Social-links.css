@@ -74,6 +74,71 @@ figure {
 
 
 
+
+/*Social links*/
+section h3 {
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    font-size: 60px; 
+    text-align: center; 
+    font-weight: 1;
+    padding: 50px;
+}
+.box {
+    position: absolute; 
+    top: 35%; 
+    left: 24%; 
+    width: 900px;            
+    height: 300px;           
+    background-color: #708090;           
+    box-sizing: border-box;  
+    border-radius: 10px;
+    opacity: 50%;
+    z-index: -1;
+}
+section p{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: 1;
+}
+.social ul{
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: 1;
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+.social li a{
+    padding: 10px 15px;
+    transition: background 0.3s;
+    background-color: #708090;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.social li a:hover{
+    background-color: #333;
+    border-radius: 10px;
+}
+
+
+
+
+
 /*Footer*/
 footer{
     bottom: 0;
