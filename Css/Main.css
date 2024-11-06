@@ -176,16 +176,16 @@ section h5{
     color: #fff;
     left: 0%;
     padding-left: 1165px;
-    top: 1600px;
+    top: 1770px;
     z-index: -1;
 }
 .My-hobbies p{
     font-size: 25px;
     color: #fff;
     position: absolute;
-    left: 0%;
-    max-width: 800px;
-    padding-left: 50px;
+    top: 1640px;
+    max-width: 1675px;
+    padding-left: 900px;
     padding-top: 200px;
     text-align: center;
 }
@@ -193,7 +193,7 @@ div.iain{
    float: right;
    padding-top: 50px;
    padding-right: 50px;
-   padding-bottom: 50px;
+   padding-bottom: 1px;
 }
 
 
