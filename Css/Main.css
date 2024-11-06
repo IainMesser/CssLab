@@ -122,6 +122,7 @@ section h4{
     padding-left: 50px;
     padding-top: 200px;
     text-align: center;
+    z-index: -1;
 }
 div.iain{
    float: right;
@@ -140,6 +141,7 @@ div.iain{
     overflow: hidden;
     white-space: nowrap;    
     padding-bottom: 50px;
+    padding-top: 0px;
     word-spacing: 20px;
 }
 
@@ -176,25 +178,25 @@ section h5{
     color: #fff;
     left: 0%;
     padding-left: 1165px;
-    top: 1770px;
+    top: 1715px;
     z-index: -1;
 }
 .My-hobbies p{
     font-size: 25px;
     color: #fff;
     position: absolute;
-    top: 1640px;
-    max-width: 1675px;
+    top: 1590px;
+    max-width: 1625px;
     padding-left: 900px;
     padding-top: 200px;
     text-align: center;
 }
-div.iain{
-   float: right;
-   padding-top: 50px;
-   padding-right: 50px;
-   padding-bottom: 1px;
+.My-hobbies{
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
+
+
 
 
 
