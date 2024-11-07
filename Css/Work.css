@@ -74,7 +74,6 @@ figure {
 
 
 
-
 /*Title page*/
 section h3 {
     position: absolute; 
@@ -216,6 +215,8 @@ img {
     padding-bottom: 10px;
     z-index: -1;
 }
+
+
 
 
 
