@@ -124,3 +124,105 @@ footer{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    /* Adjust font sizes and box width for smaller desktops */
+    section h3 {
+        font-size: 2rem;
+        top: 36%;
+    }
+
+    .box {
+        width: 90%;
+        height: 350px;
+    }
+
+    .social ul {
+        top: 65%;
+        gap: 15px;
+    }
+
+    .social li a {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for tablets and smaller screens */
+    section h3 {
+        font-size: 1.8rem;
+            position: absolute; 
+            top: 30%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            color: #fff; 
+            font-size: 40px; 
+            text-align: center; 
+            font-weight: 1;
+            padding: 50px;
+    }
+
+    .box {
+        width: 95%;
+        height: 500px;
+    }
+
+    .social ul {
+        position: absolute; 
+        top: 70%; 
+        gap: 20px; 
+    }
+
+    .social li a {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for mobile screens */
+    header {
+        padding: 0px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    section h3 {
+        font-size: 1.5rem;
+        top: 30%;
+    }
+
+    .box {
+        width: 90%;
+        height: 120px;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+
+    .social ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social li a {
+        font-size: 0.8rem;
+        padding: 6px 8px;
+        width: 100%; /* Stretch social links to full width on mobile */
+        text-align: center;
+    }
+}
+

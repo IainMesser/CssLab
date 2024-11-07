@@ -164,14 +164,16 @@ footer{
     /* Adjust font sizes and box width for smaller desktops */
     section h3 {
         font-size: 2rem;
+        top: 36%;
     }
 
     .box {
         width: 90%;
-        height: 300px;
+        height: 350px;
     }
 
     .social ul {
+        top: 65%;
         gap: 15px;
     }
 
@@ -202,8 +204,9 @@ footer{
     }
 
     .social ul {
-        gap: 15px;
-        top: 75%;  
+        position: absolute; 
+        top: 70%; 
+        gap: 20px; 
     }
 
     .social li a {
