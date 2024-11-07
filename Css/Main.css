@@ -211,8 +211,89 @@ footer{
     padding-bottom: 25px;
 }
 
-@media (Max-width: 800px) {
-    body{
-        background-color: aqua;
-    }  
-}   
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    main h1 {
+        font-size: 3.5rem;
+    }
+
+    section h2, section h3 {
+        font-size: 3rem;
+    }
+
+    section h4, section h5 {
+        font-size: 2rem;
+    }
+
+    .main p, .My-hobbies p {
+        font-size: 1.1rem;
+    }
+
+    .scrolling-text {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main h1 {
+        font-size: 3rem;
+        top: 250px;
+    }
+
+    section h2 {
+        font-size: 2.5rem;
+        top: 350px;
+    }
+
+    section h3 {
+        font-size: 2.5rem;
+        top: 450px;
+    }
+
+    section h4 {
+        font-size: 1.8rem;
+        left: 5%;
+    }
+
+    section h5 {
+        font-size: 1.8rem;
+        left: 55%;
+    }
+
+    .main p, .My-hobbies p {
+        font-size: 1rem;
+    }
+
+    .scrolling-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main h1 {
+        font-size: 2.5rem;
+        top: 200px;
+    }
+
+    section h2, section h3 {
+        font-size: 2rem;
+        top: 300px;
+    }
+
+    section h4, section h5 {
+        font-size: 1.5rem;
+        top: 1400px;
+    }
+
+    .main p, .My-hobbies p {
+        font-size: 0.9rem;
+    }
+
+    .scrolling-text {
+        font-size: 1rem;
+    }
+
+    figure {
+        height: 70vh;
+    }
+} 

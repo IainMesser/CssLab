@@ -155,8 +155,91 @@ footer{
     padding-bottom: 25px;
 }
 
-@media (Max-width: 800px) {
-    body{
-        background-color: aqua;
-    }  
-}   
+
+
+
+
+
+@media (max-width: 1200px) {
+    /* Adjust font sizes and box width for smaller desktops */
+    section h3 {
+        font-size: 2rem;
+    }
+
+    .box {
+        width: 90%;
+        height: 300px;
+    }
+
+    .social ul {
+        gap: 15px;
+    }
+
+    .social li a {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for tablets and smaller screens */
+    section h3 {
+        font-size: 1.8rem;
+    }
+
+    .box {
+        width: 95%;
+        height: 500px;
+    }
+
+    .social ul {
+        gap: 10px;
+    }
+
+    .social li a {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for mobile screens */
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    section h3 {
+        font-size: 1.5rem;
+        top: 30%;
+    }
+
+    .box {
+        width: 90%;
+        height: 120px;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+
+    .social ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social li a {
+        font-size: 0.8rem;
+        padding: 6px 8px;
+        width: 100%; /* Stretch social links to full width on mobile */
+        text-align: center;
+    }
+}
+
