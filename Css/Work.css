@@ -127,6 +127,8 @@ section p{
 
 
 /*Images*/
+img {
+}
 .Image1 {
     position: relative;
     top: 95%;
@@ -185,8 +187,35 @@ section p{
     padding-bottom: 10px;
     z-index: -1;
 }
-
-
+.Image7 {
+    position: relative;
+    top: 95%;
+    float: left;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    z-index: -1;
+}
+.Image8 {
+    position: relative;
+    top: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    z-index: -1;
+}
+.Image9 {
+    position:relative;
+    top: 95%;
+    float: right;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    z-index: -1;
+}
 
 
 
