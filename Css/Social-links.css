@@ -88,13 +88,17 @@ section h3 {
     padding: 50px;
 }
 .box {
-    position: absolute; 
-    top: 35%; 
-    left: 24%; 
-    width: 900px;            
-    height: 300px;           
-    background-color: #708090;           
-    box-sizing: border-box;  
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center; 
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    background-color: #708090;
+    box-sizing: border-box;
     border-radius: 10px;
     opacity: 50%;
     z-index: -1;
@@ -150,3 +154,9 @@ footer{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+@media (Max-width: 800px) {
+    body{
+        background-color: aqua;
+    }  
+}   
