@@ -78,7 +78,7 @@ figure {
 /*Social links*/
 section h3 {
     position: absolute; 
-    top: 40%; 
+    top: 37%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: #fff; 
@@ -185,6 +185,15 @@ footer{
     /* Adjustments for tablets and smaller screens */
     section h3 {
         font-size: 1.8rem;
+            position: absolute; 
+            top: 30%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            color: #fff; 
+            font-size: 40px; 
+            text-align: center; 
+            font-weight: 1;
+            padding: 50px;
     }
 
     .box {
@@ -193,7 +202,8 @@ footer{
     }
 
     .social ul {
-        gap: 10px;
+        gap: 15px;
+        top: 75%;  
     }
 
     .social li a {
@@ -205,7 +215,7 @@ footer{
 @media (max-width: 480px) {
     /* Adjustments for mobile screens */
     header {
-        padding: 10px;
+        padding: 0px;
     }
 
     .logo {
