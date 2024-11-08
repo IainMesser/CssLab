@@ -160,7 +160,7 @@ div.iain{
     0% {
         transform: translateX(-100%); /* Start at the left */
     }
-    1000% {
+    100% {
         transform: translateX(0); /* End off-screen to the left */
     }
 }
@@ -240,7 +240,7 @@ footer{
     }
     .My-hobbies h5 {
         top: 170%;
-        left: %;
+        left: 0%;
         padding-right: 50px; 
         font-size: 35px;
     }
