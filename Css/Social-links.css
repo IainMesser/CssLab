@@ -78,7 +78,7 @@ figure {
 /*Social links*/
 section h3 {
     position: absolute; 
-    top: 37%; 
+    top: 40%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: #fff; 
@@ -206,7 +206,7 @@ footer{
     .social ul {
         position: absolute; 
         top: 70%; 
-        gap: 20px; 
+        gap: 15px; 
     }
 
     .social li a {
@@ -230,13 +230,13 @@ footer{
     }
 
     section h3 {
-        font-size: 1.5rem;
+        font-size: 30px;
         top: 30%;
     }
 
     .box {
         width: 90%;
-        height: 120px;
+        height: 500px;
     }
 
     section p {
@@ -256,3 +256,44 @@ footer{
     }
 }
 
+@media (max-width: 375px) {
+    /* Adjustments for mobile screens */
+    header {
+        padding: 0px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    section h3 {
+        font-size: 30px;
+        top: 30%;
+    }
+
+    .box {
+        width: 90%;
+        height: 500px;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+
+    .social ul {
+        top: 75%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social li a {
+        font-size: 0.8rem;
+        padding: 6px 8px;
+        width: 100%; /* Stretch social links to full width on mobile */
+        text-align: center;
+    }
+}

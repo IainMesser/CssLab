@@ -183,6 +183,9 @@ footer{
         font-size: 0.85rem;
         padding: 6px 10px;
     }
+    section p {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -206,11 +209,11 @@ footer{
 
     .box {
         width: 90%;
-        height: 120px;
+        height: 150px;
     }
 
     section p {
-        font-size: 0.9rem;
+        font-size: 20px;
     }
 
     .social ul {
