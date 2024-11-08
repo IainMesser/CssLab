@@ -246,6 +246,7 @@ footer{
         transform: translate(0, 0); /* Remove previous absolute positioning */
         text-align: center;
     }
+}
 @media screen and (max-width: 768px) {
     .social img {
         display: none;  
