@@ -211,30 +211,49 @@ footer{
     padding-bottom: 25px;
 }
 
+
+
+
+
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
     main h1 {
         font-size: 3.5rem;
     }
-
     section h2, section h3 {
-        font-size: 3rem;
+        font-size: 100px;
     }
-
-    section h4, section h5 {
-        font-size: 2rem;
-    }
-
-    .main p, .My-hobbies p {
-        font-size: 1.1rem;
-    }
-
     .scrolling-text {
         font-size: 1.25rem;
+    }
+    section h4 {
+        left: 0;
+        padding-left: 20px; 
+        font-size: 35px;
+    }
+    .main p {
+        font-size: 1rem;
+        left: 0%; 
+        max-width: 350px; 
+        padding-left: 20px; 
+        text-align: left; 
+    }
+    .My-hobbies h5 {
+        top: 170%;
+        left: %;
+        padding-right: 50px; 
+        font-size: 35px;
+    }
+    .My-hobbies p {
+        font-size: 1rem;
+        right: 0%; 
+        padding-right: 20px; 
+        text-align: left; 
     }
 }
 
 @media (max-width: 768px) {
+    /* Adjust for tablets */
     main h1 {
         font-size: 3rem;
         top: 250px;
@@ -270,6 +289,7 @@ footer{
 }
 
 @media (max-width: 480px) {
+    /* Adjust for mobile screens */
     main h1 {
         font-size: 2.5rem;
         top: 200px;
@@ -295,5 +315,6 @@ footer{
 
     figure {
         height: 70vh;
+        background-attachment: scroll; /* Improved for mobile */
     }
-} 
+}
