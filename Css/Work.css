@@ -138,7 +138,7 @@ section p{
 }
 .image-table img {
     max-width: 100%; 
-    height: auto; /
+    height: auto; 
     border-radius: 10px; 
     border: solid 5px white;
 }
@@ -157,4 +157,81 @@ footer{
     text-align:center;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+    .image-table img {
+        width: 100%; 
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .image-table img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .box {
+        width: 100%; /* Adjust box to fit screen */
+        height: auto;
+    }
+
+    section h3 {
+        font-size: 40px; /* Smaller font size on mobile */
+        top: 15%;
+    }
+
+    section p {
+        font-size: 16px; /* Smaller font size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image-table {
+        display: block; /* Stack images vertically on very small screens */
+    }
+
+    .image-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0; /* Adjust padding for small screens */
+    }
+
+    .image-table img {
+        width: 100%; /* Ensure images take up full width on very small screens */
+        max-width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    section h3 {
+        font-size: 30px; /* Further reduce font size */
+        top: 10%;
+    }
+
+    section p {
+        font-size: 14px; /* Further reduce font size */
+    }
+
+    .box {
+        width: 100%; /* Box takes full width on small screens */
+        height: auto; /* Let the height adjust based on content */
+    }
+    header {
+        padding: 0px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
 }
